@@ -1,0 +1,28 @@
+.InputFormName {
+    width: 400px;
+    height: 5px;
+    padding: 15px; /* set padding for all four sides */
+    border: 3px solid black; /* set border for all four sides */
+    margin: 20px auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
+}
+
+.Header {
+    padding: 0px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+}
+
+.Button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: auto auto;
+    height: 40px;
+}

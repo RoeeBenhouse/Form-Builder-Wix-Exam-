@@ -1,0 +1,42 @@
+.Toolbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+
+.Toolbar nav{
+    height: 100%;
+}
+
+.Form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Form li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.Form a {
+    text-decoration: none;
+    color: black;
+}
+
+.Form a:hover,
+.Form a:active {
+    color: orange;
+}
